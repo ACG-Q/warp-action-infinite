@@ -10,6 +10,7 @@ os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
 os.system('cls' if os.name == 'nt' else 'clear')
 print('Getting WARP+ Traffic on Github Actions')
 referrer = os.environ["DEVICEID"]
+if referrer is None: referrer = "5ugjG324-158TU3fM-E87U1i9f"
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
@@ -46,8 +47,7 @@ def run():
 		status_code = response.getcode()	
 		return status_code
 	except Exception as error:
-		print(error)	
-print(f"id: {referrer}")
+		print(error)
 g = 0
 b = 0
 while True:
