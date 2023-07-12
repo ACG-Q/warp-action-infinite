@@ -76,4 +76,4 @@ while True:
 		print("")
 		print("[:(] Error when connecting to server.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		if b > 3000: return
+		if b > 3000: os._exit()
