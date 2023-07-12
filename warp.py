@@ -49,7 +49,7 @@ def run():
 		print(error)	
 if referrer is None:
 	print("Not Find ID...exit")
-	return
+	exit()
 g = 0
 b = 0
 while True:
