@@ -47,9 +47,7 @@ def run():
 		return status_code
 	except Exception as error:
 		print(error)	
-if referrer is None:
-	print("Not Find ID...exit")
-	exit()
+print(f"id: {referrer}")
 g = 0
 b = 0
 while True:
