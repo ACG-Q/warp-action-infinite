@@ -88,10 +88,10 @@ while True:
 		print(f"\n[-] WORK ON ID: {referrer}")
 		print(f"[:)] {good} GB has been successfully added to your account.")
 	else:
-		b += 1
+		bed += 1
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print("[:(] Error when connecting to server.")
-		if b > 3000: os._exit()
+		if bed > 3000: os._exit()
 
 	print(f"[#] Total: {good} Good {bed} Bad")
 	print("[*] After 18 seconds, a new request will be sent.")
