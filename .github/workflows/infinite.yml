@@ -9,15 +9,18 @@ jobs:
   auto_getting_traffic:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checking'
-        uses: actions/checkout@v2
+      - name: Set TERM environment variable
+        run: export TERM=xterm
 
-      - name: 'Setting Python'
-        uses: actions/setup-python@v1
+      - name: Checking
+        uses: actions/checkout@v3
+
+      - name: Setting Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: 'Getting WARP+ Traffic'
+      - name: Getting WARP+ Traffic
         env:
           DEVICEID: ${{ secrets.DEVICEID }}      
         run: python warp.py
