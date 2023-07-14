@@ -6,6 +6,7 @@ import string
 import time
 import os
 import sys
+os.environ['TERM'] = 'xterm'
 
 os.system("title WARP-PLUS-CLOUDFLARE")
 os.system('cls' if os.name == 'nt' else 'clear')
