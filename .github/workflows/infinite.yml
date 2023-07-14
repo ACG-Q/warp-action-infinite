@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Set TERM environment variable
         run: export TERM=xterm
+        
+      - name: Set TERM environment variable
+        run: echo "TERM=xterm" >> $GITHUB_ENV
 
       - name: Checking
         uses: actions/checkout@v3
