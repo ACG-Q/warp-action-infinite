@@ -1,6 +1,10 @@
 # warp-action-infinite
 配置 GitHub Actions 来刷无限流量
 
+> 卡在了1200推荐上了(1.2TB流量)
+>
+> 暂停自动运行...
+
 ## 刷刷刷方法1
 
 手动下载本地**刷刷刷软件**(`warp-plus-cloudflare \[version3 by aliilapro].exe`)
