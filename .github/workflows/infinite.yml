@@ -2,8 +2,8 @@ name: 'Getting WARP+ Traffic'
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '33 8 * * *'
+#   schedule:
+#     - cron: '33 8 * * *'
 
 jobs:
   auto_getting_traffic:
